@@ -30,4 +30,23 @@
     height: 100%;
     width: 100%;
     z-index: 2;
+
+    /* Kontrollere tekstene */
+    color: white;
+    display: grid;
+
+    justify-content: center;
+    align-content: center;
 }
+
+#overlay h1 {
+    padding: 16px;
+    text-align: center;
+}
+
+#overlay p {
+    /* justify-self: end; */
+    padding: 16px;
+    
+}
+
