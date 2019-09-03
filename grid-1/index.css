@@ -1,0 +1,30 @@
+
+/* grid */
+#rutenett {
+    background-color: orange;
+    max-width: 800px;
+    
+    display: grid;
+    grid-gap: 5px;
+
+    /* grid-template-columns: 100px 200px 100px; */
+    
+    /* Fraksjoner brukes til å angi størreslsesforhold mellom ruter */
+    grid-template-columns: 1fr 2fr 1fr;
+
+    /* grid-template-rows: 50px 200px 60px; */
+    /* Alle radene får nå en bestemt høyde */
+    grid-auto-rows: 80px;
+
+}
+
+/* grid items */
+#rutenett div {
+    background-color: peachpuff;
+    
+    /* Dette vil alltid midstille innholdet */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Nå er det midstilt */
+}
